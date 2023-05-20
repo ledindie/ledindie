@@ -42,7 +42,7 @@ class main:
 
     # Unable to click the last button, possibly in iframe or DOM?
     confirm = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.CLASS_NAME, ''))
+        EC.element_to_be_clickable((By.CLASS_NAME, 'css-eswa9h'))
     )
     confirm.click()
 
