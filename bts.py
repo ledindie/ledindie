@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class main:
+def clickbot():
     
     driver = webdriver.Chrome(executable_path=r"C:\Chrome\chromedriver.exe")
     # Opens the website
@@ -49,4 +49,4 @@ class main:
 
 
 if __name__ == "__main__":
-    main()
+    clickbot()
